@@ -1,0 +1,17 @@
+/*
+Deze moet nog opgemaakt worden.
+ */
+.confirmationMessage {
+    display:none;
+}
+
+.errorMessage {
+    display: none;
+    border:2px solid red;
+    background-color:indianred;
+    border-radius: 25px;
+    padding:5px;
+    width:100%;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}

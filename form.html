@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier checken met Javascript - Hogeschool Novi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="errorMessage"></div>
+<div class="confirmationMessage">Bericht verzonden</div>
+
+<label for="firstName">First name:</label><br>
+<input type="text" id="firstName" name="firstName"><br>
+<label for="lastName">Last name:</label><br>
+<input type="text" id="lastName" name="lastName"><br>
+<label for="birthyear">Birth year:</label><br>
+<input type="number" id="birthyear" name="birthyear"><br>
+<label for="phoneNumber">Phonenumber</label><br>
+<input type="text" name="phoneNumber" id="phoneNumber"><br>
+<label for="email">email:</label><br>
+<input type="text" id="email" name="email"><br><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password"><br>
+<label for="password2">Repeat password:</label><br>
+<input type="password" id="password2" name="password2"><br><br>
+
+
+<hr>
+<button>Send form</button>
+<button>Reset</button>
+
+<hr>
+<h2>Opdracht</h2>
+<p>Wanneer er op Send form gedrukt wordt, moeten de volgende dingen gecontroleerd worden:</p>
+<ul>
+    <li>Alle velden moeten ingevuld zijn</li>
+    <li>De wachtwoorden moeten gelijk zijn aan elkaar</li>
+    <li>Het emailadres moet een '@' en een '.' bevatten</li>
+    <li>De gebruiker moet minimaal 18 zijn</li>
+    <li>Het telefoonnummer moet minimaal en maximaal 10 cijfers zijn</li>
+    <li>Het telefoonnummer mag alleen uit cijfers bestaan</li>
+</ul>
+<p>Wanneer een of meerdere van de checks niet kloppen, dan dient het volgende te gebeuren:</p>
+<ul>
+    <li>Het input veld moet een rode border krijgen</li>
+    <li>De error message moet opgemaakt worden</li>
+    <li>De error message moet toegevoegd worden aan het div-element</li>
+    <li>Het error div-element moet getoond worden</li>
+    <li>Bonus: De tekst van de label moet ook rood en vetgedrukt worden.</li>
+</ul>
+
+<p>Wanneer alle checks correct zijn, moet de div confirmation-message getoond worden.</p>
+
+<p>Wanneer er op reset wordt gedrukt, dan dienen alle velden leeggemaakt te worden. Ook dienen de systeemberichten niet
+    meer getoond te worden.</p>
+
+<p><strong>Twee regels:</strong> Je mag van het het email adres niet de input type aanpassen naar email.
+    <em>Dit is alleen voor de oefening zo. In het echt gebruik je natuurlijk gewoon email.</em> Maak een apart Js-bestand aan en zet daarin de code. De verwijzing moet nog aan dit bestand toegevoegd worden.</p>
+
+<h4>Extra</h4>
+<p>Gebruik <a href="https://www.w3schools.com/css/css_form.asp" target="_blank">https://www.w3schools.com/css/css_form.asp</a> om het formulier op te maken! </p>
+
+<h3>Hulplijnen</h3>
+<ul>
+    <li><a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">https://www.w3schools.com/html/html_form_input_types.asp</a> </li>
+    <li><a href="https://www.w3schools.com/jsref/prop_text_value.asp" target="_blank">https://www.w3schools.com/jsref/prop_text_value.asp</a> </li>
+    <li><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">https://www.w3schools.com/js/js_htmldom.asp</a> </li>
+    <li><a href="https://www.w3schools.com/js/js_htmldom_events.asp" target="_blank">https://www.w3schools.com/js/js_htmldom_events.asp</a> </li>
+</ul>
+
+</body>
+</html>
